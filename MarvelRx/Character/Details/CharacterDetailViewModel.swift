@@ -9,7 +9,12 @@
 import RxSwift
 import RxCocoa
 
-class CharacterDetailViewModel {
+protocol CharacterDetailViewModelProtocol {
+    var input: CharacterDetailViewModel.Input { get }
+    var output: CharacterDetailViewModel.Output { get }
+}
+
+final class CharacterDetailViewModel: CharacterDetailViewModelProtocol {
     let input: Input
     let output: Output
     

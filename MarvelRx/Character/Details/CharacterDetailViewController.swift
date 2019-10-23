@@ -11,7 +11,7 @@ import UIKit
 
 class CharacterDetailViewController: UIViewController {
     
-    private let viewModel: CharacterDetailViewModel
+    let viewModel: CharacterDetailViewModelProtocol
     
     private let image = UIImageView()
     private let nameLabel = UILabel()
@@ -19,7 +19,7 @@ class CharacterDetailViewController: UIViewController {
     private let button = UIButton()
     private let disposeBag = DisposeBag()
     
-    init(viewModel: CharacterDetailViewModel) {
+    init(viewModel: CharacterDetailViewModelProtocol) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

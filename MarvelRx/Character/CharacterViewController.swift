@@ -12,11 +12,11 @@ import UIKit
 
 class CharacterViewController: UIViewController {
     
-    private let viewModel: CharacterViewModel
+    private let viewModel: CharacterViewModelProtocol
     private let tableView = UITableView()
     private let disposeBag = DisposeBag()
     
-    init(viewModel: CharacterViewModel = CharacterViewModel()) {
+    init(viewModel: CharacterViewModelProtocol = CharacterViewModel()) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

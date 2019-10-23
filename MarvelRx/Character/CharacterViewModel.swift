@@ -9,7 +9,12 @@
 import RxSwift
 import RxCocoa
 
-final class CharacterViewModel {
+protocol CharacterViewModelProtocol {
+    var input: CharacterViewModel.Input { get }
+    var output: CharacterViewModel.Output { get }
+}
+
+final class CharacterViewModel: CharacterViewModelProtocol {
     let input: Input
     let output: Output
     
@@ -21,7 +26,8 @@ final class CharacterViewModel {
         let marvelCharacters: Driver<[MarvelCharacter]>
         let didSelectCharacter: Driver<MarvelCharacter?>
     }
-    let characterStrings = BehaviorSubject<[MarvelCharacter]>(value: [])
+    
+    let characterStrings = BehaviorSubject<[MarvelCharacter]>(value: []) // can I remove this
     
     private let selectCharacterSubject = PublishSubject<MarvelCharacter?>()
     private let disposeBag = DisposeBag()
