@@ -16,6 +16,8 @@
 		4DA09CD023603AAC007CFE95 /* FakeCharacterViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CCF23603AAC007CFE95 /* FakeCharacterViewControllerFactory.swift */; };
 		4DA09CD223603ACF007CFE95 /* FakeCharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CD123603ACF007CFE95 /* FakeCharacterDetailViewModel.swift */; };
 		4DA09CD423603F4B007CFE95 /* MockURLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CD323603F4B007CFE95 /* MockURLOpener.swift */; };
+		4DA09CD62360419A007CFE95 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CD52360419A007CFE95 /* CharacterDetailView.swift */; };
+		4DA09CD92360479A007CFE95 /* CharacterDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CD82360479A007CFE95 /* CharacterDetailViewControllerTests.swift */; };
 		4DC4F2912359E6510099B2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4F2902359E6510099B2C6 /* AppDelegate.swift */; };
 		4DC4F2932359E6510099B2C6 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4F2922359E6510099B2C6 /* CharacterViewController.swift */; };
 		4DC4F2982359E6520099B2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4F2972359E6520099B2C6 /* Assets.xcassets */; };
@@ -55,6 +57,8 @@
 		4DA09CCF23603AAC007CFE95 /* FakeCharacterViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCharacterViewControllerFactory.swift; sourceTree = "<group>"; };
 		4DA09CD123603ACF007CFE95 /* FakeCharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCharacterDetailViewModel.swift; sourceTree = "<group>"; };
 		4DA09CD323603F4B007CFE95 /* MockURLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLOpener.swift; sourceTree = "<group>"; };
+		4DA09CD52360419A007CFE95 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		4DA09CD82360479A007CFE95 /* CharacterDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		4DC4F28D2359E6510099B2C6 /* MarvelRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC4F2902359E6510099B2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DC4F2922359E6510099B2C6 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,14 @@
 			path = FakesMocks;
 			sourceTree = "<group>";
 		};
+		4DA09CD723604785007CFE95 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4DA09CD82360479A007CFE95 /* CharacterDetailViewControllerTests.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		4DC4F2842359E6510099B2C6 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +182,7 @@
 		4DC4F2A42359E6520099B2C6 /* MarvelRxTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DA09CD723604785007CFE95 /* Detail */,
 				4DA09CC623603660007CFE95 /* FakesMocks */,
 				4D895E9F235F465F00D378EA /* Coordinator */,
 				4DC4F2A52359E6520099B2C6 /* MarvelRxTests.swift */,
@@ -207,7 +220,7 @@
 		4DF09EB4235F2C97004A9F38 /* Character */ = {
 			isa = PBXGroup;
 			children = (
-				4DF09EB7235F2CE1004A9F38 /* Details */,
+				4DF09EB7235F2CE1004A9F38 /* Detail */,
 				4DC4F2922359E6510099B2C6 /* CharacterViewController.swift */,
 				4DF09B1F235EDEC1004A9F38 /* CharacterViewModel.swift */,
 				4DF09EB0235F0F7D004A9F38 /* CharacterCellViewModel.swift */,
@@ -217,13 +230,14 @@
 			path = Character;
 			sourceTree = "<group>";
 		};
-		4DF09EB7235F2CE1004A9F38 /* Details */ = {
+		4DF09EB7235F2CE1004A9F38 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
 				4DF09EB8235F2CF2004A9F38 /* CharacterDetailViewController.swift */,
 				4DF09EBA235F2D23004A9F38 /* CharacterDetailViewModel.swift */,
+				4DA09CD52360419A007CFE95 /* CharacterDetailView.swift */,
 			);
-			path = Details;
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		B97AC07C16F77D3A7E213C2F /* Frameworks */ = {
@@ -423,6 +437,7 @@
 				4DF09EB9235F2CF2004A9F38 /* CharacterDetailViewController.swift in Sources */,
 				4DF09EBB235F2D23004A9F38 /* CharacterDetailViewModel.swift in Sources */,
 				4DF09EB6235F2CB0004A9F38 /* ImageProvider.swift in Sources */,
+				4DA09CD62360419A007CFE95 /* CharacterDetailView.swift in Sources */,
 				4DF09EB1235F0F7D004A9F38 /* CharacterCellViewModel.swift in Sources */,
 				4DF09B28235EE490004A9F38 /* CharacterResponseModel.swift in Sources */,
 				4DF09B24235EE25C004A9F38 /* URLSessionProtocol.swift in Sources */,
@@ -443,6 +458,7 @@
 				4D895EA1235F467900D378EA /* RootCoordinatorTests.swift in Sources */,
 				4DA09CCC236036BF007CFE95 /* FakeMarvelCharacter.swift in Sources */,
 				4DA09CD223603ACF007CFE95 /* FakeCharacterDetailViewModel.swift in Sources */,
+				4DA09CD92360479A007CFE95 /* CharacterDetailViewControllerTests.swift in Sources */,
 				4DC4F2A62359E6520099B2C6 /* MarvelRxTests.swift in Sources */,
 				4DA09CD423603F4B007CFE95 /* MockURLOpener.swift in Sources */,
 				4DA09CC82360367A007CFE95 /* MockNavigationController.swift in Sources */,
