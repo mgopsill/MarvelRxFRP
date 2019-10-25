@@ -11,8 +11,7 @@ import RxCocoa
 
 func characterDetailViewModel(
     character: MarvelCharacter,
-    buttonTapped: Observable<Void>,
-    viewDidLoad: Observable<Void>
+    buttonTapped: Observable<Void>
     ) -> (
     characterImage: Driver<UIImage?>,
     characterName: Driver<String>,

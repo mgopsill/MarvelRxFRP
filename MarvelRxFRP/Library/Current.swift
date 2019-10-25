@@ -18,7 +18,7 @@ struct CharacterAPI {
 }
 
 struct Images {
-    var image = ImageProviderV2.shared.image(for:)
+    var image = ImageProvider.shared.image(for:)
 }
 
 #if DEBUG

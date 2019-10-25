@@ -10,7 +10,6 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -34,3 +33,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 fileprivate func appDelegateViewModel(applicationDidFinishLaunching: Observable<UIWindow?>) -> Driver<UIWindow?> {
     return applicationDidFinishLaunching.asDriver(onErrorJustReturn: nil)
 }
+

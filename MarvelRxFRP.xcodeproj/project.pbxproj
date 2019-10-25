@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		49C45EB1C9368EB8B96D92FA /* Pods_MarvelRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B01651ECAD792E5C396306 /* Pods_MarvelRxTests.framework */; };
 		4D0078812362D15A00CDFFC0 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0078802362D15A00CDFFC0 /* CharacterService.swift */; };
+		4D7DEF02236333D100440943 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DEF01236333D100440943 /* main.swift */; };
+		4D7DEF062363370100440943 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DEF03236333EF00440943 /* TestingAppDelegate.swift */; };
 		4D895EA1235F467900D378EA /* RootCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895EA0235F467900D378EA /* RootCoordinatorTests.swift */; };
 		4DA09CC82360367A007CFE95 /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CC72360367A007CFE95 /* MockNavigationController.swift */; };
 		4DA09CCA23603692007CFE95 /* FakeCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CC923603692007CFE95 /* FakeCharacterViewModel.swift */; };
@@ -20,6 +22,7 @@
 		4DA09CD92360479A007CFE95 /* CharacterDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA09CD82360479A007CFE95 /* CharacterDetailViewControllerTests.swift */; };
 		4DC44B512362DB3D00B887CA /* URLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC44B502362DB3D00B887CA /* URLOpener.swift */; };
 		4DC44B58236300DD00B887CA /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC44B57236300DD00B887CA /* Current.swift */; };
+		4DC44B5B23631EE900B887CA /* CharacterDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC44B5A23631EE900B887CA /* CharacterDetailViewModelTests.swift */; };
 		4DC4F2912359E6510099B2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4F2902359E6510099B2C6 /* AppDelegate.swift */; };
 		4DC4F2932359E6510099B2C6 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4F2922359E6510099B2C6 /* CharacterViewController.swift */; };
 		4DC4F2982359E6520099B2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC4F2972359E6520099B2C6 /* Assets.xcassets */; };
@@ -49,6 +52,8 @@
 		1EC1DB539413D173402954A1 /* Pods-MarvelRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelRx.debug.xcconfig"; path = "Target Support Files/Pods-MarvelRx/Pods-MarvelRx.debug.xcconfig"; sourceTree = "<group>"; };
 		250BEB15D2DEEA34EC1D53D8 /* Pods-MarvelRxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelRxTests.release.xcconfig"; path = "Target Support Files/Pods-MarvelRxTests/Pods-MarvelRxTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D0078802362D15A00CDFFC0 /* CharacterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		4D7DEF01236333D100440943 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D7DEF03236333EF00440943 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 		4D895EA0235F467900D378EA /* RootCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinatorTests.swift; sourceTree = "<group>"; };
 		4DA09CC72360367A007CFE95 /* MockNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationController.swift; sourceTree = "<group>"; };
 		4DA09CC923603692007CFE95 /* FakeCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCharacterViewModel.swift; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 		4DA09CD82360479A007CFE95 /* CharacterDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewControllerTests.swift; sourceTree = "<group>"; };
 		4DC44B502362DB3D00B887CA /* URLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpener.swift; sourceTree = "<group>"; };
 		4DC44B57236300DD00B887CA /* Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		4DC44B5A23631EE900B887CA /* CharacterDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModelTests.swift; sourceTree = "<group>"; };
 		4DC4F28D2359E6510099B2C6 /* MarvelRxFRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelRxFRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC4F2902359E6510099B2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DC4F2922359E6510099B2C6 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF09EBA235F2D23004A9F38 /* CharacterDetailViewModel.swift */,
+				4DC44B5A23631EE900B887CA /* CharacterDetailViewModelTests.swift */,
 				4DF09B1F235EDEC1004A9F38 /* CharacterViewModel.swift */,
 			);
 			path = ViewModels;
@@ -189,6 +196,13 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
+		4DC44B5923631E1400B887CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		4DC4F2842359E6510099B2C6 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +227,8 @@
 			isa = PBXGroup;
 			children = (
 				4DC4F2902359E6510099B2C6 /* AppDelegate.swift */,
+				4D7DEF03236333EF00440943 /* TestingAppDelegate.swift */,
+				4D7DEF01236333D100440943 /* main.swift */,
 				4DC44B552362FF9400B887CA /* API */,
 				4DC44B532362FF6200B887CA /* Controllers */,
 				4DC44B562362FFAD00B887CA /* Library */,
@@ -228,6 +244,7 @@
 		4DC4F2A42359E6520099B2C6 /* MarvelRxFRPTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DC44B5923631E1400B887CA /* ViewModels */,
 				4DA09CD723604785007CFE95 /* Detail */,
 				4DA09CC623603660007CFE95 /* FakesMocks */,
 				4D895E9F235F465F00D378EA /* Coordinator */,
@@ -439,6 +456,7 @@
 				4DF09B28235EE490004A9F38 /* CharacterResponseModel.swift in Sources */,
 				4DF09B24235EE25C004A9F38 /* URLSessionProtocol.swift in Sources */,
 				4DC4F2932359E6510099B2C6 /* CharacterViewController.swift in Sources */,
+				4D7DEF02236333D100440943 /* main.swift in Sources */,
 				4DF09B20235EDEC1004A9F38 /* CharacterViewModel.swift in Sources */,
 				4DC4F2912359E6510099B2C6 /* AppDelegate.swift in Sources */,
 				4DC44B58236300DD00B887CA /* Current.swift in Sources */,
@@ -452,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D895EA1235F467900D378EA /* RootCoordinatorTests.swift in Sources */,
+				4DC44B5B23631EE900B887CA /* CharacterDetailViewModelTests.swift in Sources */,
 				4DA09CCC236036BF007CFE95 /* FakeMarvelCharacter.swift in Sources */,
 				4DA09CD223603ACF007CFE95 /* FakeCharacterDetailViewModel.swift in Sources */,
 				4DA09CD92360479A007CFE95 /* CharacterDetailViewControllerTests.swift in Sources */,
@@ -459,6 +478,7 @@
 				4DA09CD423603F4B007CFE95 /* MockURLOpener.swift in Sources */,
 				4DA09CC82360367A007CFE95 /* MockNavigationController.swift in Sources */,
 				4DA09CD023603AAC007CFE95 /* FakeCharacterViewControllerFactory.swift in Sources */,
+				4D7DEF062363370100440943 /* TestingAppDelegate.swift in Sources */,
 				4DA09CCA23603692007CFE95 /* FakeCharacterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

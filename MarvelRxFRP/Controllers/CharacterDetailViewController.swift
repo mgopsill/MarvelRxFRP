@@ -47,8 +47,7 @@ class CharacterDetailViewController: UIViewController {
         let (characterImage, characterName, characterDescription, buttonTapped) =
             characterDetailViewModel(
                 character: character,
-                buttonTapped: characterDetailView.button.rx.controlEvent(.touchUpInside).asObservable(),
-                viewDidLoad: .just(())
+                buttonTapped: characterDetailView.button.rx.controlEvent(.touchUpInside).asObservable()
         )
         
         disposeBag.insert(

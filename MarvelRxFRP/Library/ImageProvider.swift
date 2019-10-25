@@ -12,9 +12,9 @@ struct ImageCache {
     static let cache = NSCache<NSString, UIImage>()
 }
 
-struct ImageProviderV2 {
+struct ImageProvider {
     private init() { }
-    public static let shared = ImageProviderV2()
+    public static let shared = ImageProvider()
     
     private func getNetworkImage(from url: URL?) -> Observable<UIImage?> {
         guard let url = url else { return Observable.just(nil) }
