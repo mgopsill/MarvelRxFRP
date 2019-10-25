@@ -1,13 +1,13 @@
 # Podfile
 use_frameworks!
 
-target 'MarvelRx' do
+target 'MarvelRxFRP' do
     pod 'RxSwift', '~> 5'
     pod 'RxCocoa', '~> 5'
 end
 
 # RxTest and RxBlocking make the most sense in the context of unit/integration tests
-target 'MarvelRxTests' do
+target 'MarvelRxFRPTests' do
     pod 'RxSwift', '~> 5'
     pod 'RxCocoa', '~> 5'
     pod 'RxBlocking', '~> 5'
